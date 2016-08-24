@@ -77,24 +77,28 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-ul{
+nav{
   background: #c8b99c;
   margin: 10px 10px 0px 10px;
+}
+
+nav ul{
+  margin: 0px;
   list-style-type: none;
   padding: 5px 0px;
 }
 
-ul li{
+nav ul li{
   display: inline;
   padding: 5px 10px;
 }
 
-ul li a:link, ul li a:visited{
+nav ul li a:link, nav ul li a:visited{
   color: #954b4b;
   border-bottom: none;
   font-weight: bold;
 }
 
-ul li.selected{
+nav ul li.selected{
   background: #efe5d0;
 }
