@@ -5,20 +5,20 @@ body {
   margin:           0px;
 }
 
-header {
+header.top {
   background-color: #675c47;
   margin:           10px;
   height:           108px;
 }
 
-#main {
+section#main, section#blog {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
 }
 
-#drinks{
+section#drinks{
   background: #efe5d0;
   font-size: 105%;
   padding: 15px;
@@ -39,8 +39,6 @@ footer {
   padding:          15px;
   margin:           10px;
   font-size:        90%;
-
-  clear: right;
 }
 
 h1 {
@@ -72,6 +70,7 @@ a:link {
   text-decoration:  none;
   border-bottom:    thin dotted #b76666;
 }
+
 a:visited {
   color:            #675c47;
   text-decoration:  none;
