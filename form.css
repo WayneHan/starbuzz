@@ -45,6 +45,11 @@ section#form h2{
     margin: 0px;
 }
 
+textarea{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #submit{
     margin-left: 150px;
     width: 8em;
