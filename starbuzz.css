@@ -15,21 +15,27 @@ section#main, section#blog {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  margin-left: 10px;
+
+  flex-basis: 130%
 }
 
 section#drinks{
   background: #efe5d0 url(images/background.gif) top right;
   font-size: 105%;
   padding: 15px;
-  margin: 0px 10px 10px 10px;
+  margin-left: 10px;
+
+  flex-basis: 50%;
 }
 
 aside {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  margin:           0px 10px;
+
+  flex-basis: 70%;
 }
 
 footer {
@@ -101,4 +107,12 @@ nav ul li a:link, nav ul li a:visited{
 
 nav ul li.selected{
   background: #efe5d0;
+}
+
+section#flexbox{
+  display: -webkit-flex;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
