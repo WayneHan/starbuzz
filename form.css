@@ -30,14 +30,24 @@ div{
     margin: 10px auto;
 }
 
-section#selectfield label{
+section#selectfield div.text label{
     width: 11em;
     display: inline-block;
 }
 
-section#textfield label{
+section#textfield div.text label{
     width: 7em;
     display: inline-block;
+}
+
+#radio{
+    display: inline-table;
+    margin-left: 170px;
+}
+
+#extras{
+    display: inline-table;
+    margin-left: 154px;
 }
 
 section#form h2{
@@ -86,4 +96,8 @@ section#selectfield{
 
 section#textfield{
   background-position:  bottom left;
+}
+
+div#commentbox p{
+    margin-bottom: 5px;
 }
