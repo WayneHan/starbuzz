@@ -12,12 +12,15 @@ $(function () {
 
             var position = $(this).position();
             var left = position.left;
-            var div = $("<div></div>");
+            var div = $("<div></div>", {
+                html: title,
+                "class": "tooltip"
+            });
 
-            $(div).addClass("tooltip");
+            //$(div).addClass("tooltip");
             $(div).css("left", left + 'px');
 
-            $(div).html(title);
+            //$(div).html(title);
 
             $(this).after(div);
         }, function () {
