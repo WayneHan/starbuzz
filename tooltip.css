@@ -6,7 +6,7 @@ div.tooltip{
     border: black, solid, 1px;
     box-shadow: 2px 2px 1em black;
     border-radius: 3px;
-    background: gold;
+    background: #ecf0f1;
 
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
