@@ -1,4 +1,10 @@
 $(function () {
+    if ($("*[title]").length) {
+        $("*[title]").each(function () {
+            $(this).addClass("tooltip");
+        })
+    }
+
     $(".tooltip").hover(
         function () {
             var title = $(this).attr('title');
