@@ -6,7 +6,6 @@ $(function () {
 
             var position = $(this).position();
             var left = position.left;
-
             var div = $("<div></div>");
 
             $(div).addClass("tooltip");
