@@ -3,9 +3,15 @@ $(function () {
         function () {
             var title = $(this).attr('title');
             $(this).removeAttr('title');
-            var div = $("<div></div>", {
-                "class": 'tooltip'
-            });
+
+            var position = $(this).position();
+            var left = position.left;
+
+            var div = $("<div></div>");
+
+            $(div).addClass("tooltip");
+            $(div).css("left", left + 'px');
+
             $(div).html(title);
 
             $(this).after(div);
