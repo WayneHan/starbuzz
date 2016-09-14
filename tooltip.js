@@ -16,11 +16,7 @@ $(function () {
                 html: title,
                 "class": "tooltip"
             });
-
-            //$(div).addClass("tooltip");
             $(div).css("left", left + 'px');
-
-            //$(div).html(title);
 
             $(this).after(div);
         }, function () {
